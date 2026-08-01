@@ -1,2 +1,6 @@
 # HackerRank-Project-Message-Notification-Router-
 Build an AI-powered system for WhatsApp that decides which messages deserve immediate attention, which should wait, and which should be muted.
+The system must reason over multimodal messages, including text messages, image posters/screenshots, and voice notes.
+WhatsApp is noisy. A user can receive family chats, society notices, school updates, co-worker messages, business account promotions, image posters, voice notes, and scams in the same message stream. Treating every message the same creates two bad outcomes: important messages get missed, and unwanted or risky messages interrupt the user.
+Your task is to build a message notification router for this platform. For every incoming WhatsApp message, the system must decide whether the user should be interrupted now, whether the message can be batched into a digest, or whether it should be muted.
+The routing decision must be personalized to the receiving user. A sale poster may be useful for one user and unwanted noise for another. A payment reminder may be legitimate from a trusted admin but risky from a new sender. A muted family group can still contain an urgent direct mention. At the same time, clear scam or safety risk should be muted regardless of the user's usual engagement.
